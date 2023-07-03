@@ -1,2 +1,3 @@
 # dragonlock2.github.io
-blog
+
+blog to be deployed at [matthewtran.dev](https://matthewtran.dev)
