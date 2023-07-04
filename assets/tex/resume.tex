@@ -1,0 +1,111 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper, left=0.56in, right=0.56in, top=0.45in, bottom=0.45in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\babelhyphenation[english]{every-where}
+
+\usepackage{resume}
+
+\begin{document}
+\relscale{0.95}
+
+\namestuff 
+{Matthew Tran}
+{matthewlamtran@berkeley.edu $|$ 626-297-7932 $|$ linkedin.com/in/matthewlamtran $|$ matthewtran.dev}
+
+\rootstart{Education}
+
+\sectiongpa
+{University of California, Berkeley} {Berkeley, CA}
+{B.S. in Electrical Engineering and Computer Science} {GPA: 3.94} {May 2022}
+{\begin{circlist}
+	\item Coursework: CS152 (Computer Architecture), CS161 (Security), CS162 (Operating Systems), CS164 (Compilers), CS170 (Algorithms), CS188 (AI), CS189 (ML), EE105 (Circuits), EE106A/B (Robotics), EE120 (Signals \& Systems), EE123 (Digital Signal Processing), EE127 (Optimization), EE130 (Semiconductors), EE142 (RF), EE149 (Embedded Systems), EE151 (Digital Design), EE151LB (FPGA), EE194 (Tapeout)
+	\item Regents' and Chancellor's Scholarship (awarded to the top 2\% of undergraduate students)
+	\item Eta Kappa Nu (HKN) Honor Society Member (recognizes the top 25\% of EECS undergraduate students)
+\end{circlist}}
+
+\rootend
+
+\rootstart{Experiences}
+
+\sectionloc
+{SpaceX} {Hawthorne, CA}
+{Avionics Intern} {\period{May}{2021}{August}{2021}}
+{\begin{circlist}
+	\item Designed high voltage switch and updated multiplexer board for general purpose use in test rack development
+	\item Wrote software to pull image frames and metadata from compressed camera streams for real time analysis
+\end{circlist}
+\sectionsplit{Build Reliability Intern}{\period{May}{2020}{August}{2020}}
+\begin{circlist}
+	\item Successfully drove root cause investigations on multiple products ranging from flight computers to cameras and based on findings provided recommendations for corrective actions to the relevant team
+\end{circlist}}
+
+\rootend
+
+\rootstart{Activities}
+
+\sectionloc
+{UC Berkeley IEEE Student Branch} {Berkeley, CA}
+{Micromouse Director} {\period{January}{2020}{May}{2022}}
+{\begin{circlist}
+	\item Adapted course for remote setting and streamlined teaching process by improving documentation and lab format
+	\item Developed new robot kit and curriculum used to teach the class focused on manufacturability and ease of use
+\end{circlist}
+\sectionsplit{Micromouse Officer}{\period{August}{2019}{December}{2019}}
+\begin{circlist}
+	\item Created and presented labs guiding students through building a maze-solving robot for the Micromouse competition
+	\item Wrote a simulation in Python to aid in understanding algorithm implementation and hardware limitations
+\end{circlist}}
+
+\sectionloc
+{Underwater Robotics at Berkeley} {Berkeley, CA}
+{Electrical Lead} {\period{August}{2019}{May}{2022}}
+{\begin{circlist}	
+	\item Architected electrical system for MATE and RoboSub vehicles focused on reliability, manufacturability, and repairability
+\end{circlist}
+\sectionsplit{Electrical Team Member}{\period{August}{2018}{August}{2019}}
+\begin{circlist}
+	\item Used KiCad to design power distribution board to safely power various devices used on vehicle
+\end{circlist}}
+
+\sectionloc
+{CalSol} {Berkeley, CA}
+{Electrical Lead} {\period{August}{2020}{August}{2021}}
+{\begin{circlist}
+	\item Led weekly meetings facilitating new member projects and development of tenth generation vehicle
+\end{circlist}
+\sectionsplit{Electrical Team Member}{\period{August}{2018}{May}{2022}}
+\begin{circlist}
+	\item Developed test bench to simulate and debug electrical system of the vehicle
+	\item Updated high voltage power distribution board with reduced footprint and increased integration
+\end{circlist}}
+
+\rootend
+
+\rootstart{Projects}
+
+\sectionproj
+{RISC-V CPU} {\period{April}{2021}{May}{2021}}
+{\begin{circlist}
+	\item For EE151LB final project, designed and implemented a 3-stage pipelined RISC-V CPU on a PYNQ-Z1 with synchronous memory, UART tethering, and CNN hardware accelerator
+\end{circlist}}
+
+\sectionproj
+{STM32 APRS Transceiver} {\period{July}{2020}{August}{2020}}
+{\begin{circlist}
+	\item Designed a low-cost compact device implementing AFSK encoding/decoding algorithms, text UI graphics driver, and keyboard to provide APRS messaging capabilities to off-the-shelf low-cost radios
+\end{circlist}}
+
+\rootend
+
+\rootstart{Skills and Interests}
+
+\begin{indentsection}
+	\skill{Languages}{Python, C, C++, Java, Verilog, Chisel}
+	\skill{PCB Design}{KiCad, Altium, EAGLE}
+	\skill{IDEs}{Arduino, Mbed Studio, Intel Quartus, Xilinx Vivado}
+	\skill{CAD}{Fusion 360, SolidWorks}
+	\skill{Certifications}{CSWA (Certified SolidWorks Associate)}
+\end{indentsection}
+
+\end{document}
