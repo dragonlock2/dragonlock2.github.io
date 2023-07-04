@@ -33,12 +33,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Build resume
-        uses: xu-cheng/latex-action@v2
-        with:
-          root_file: assets/tex/resume.tex
-        env:
-          TEXINPUTS: "assets/tex//:"
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:
@@ -53,8 +47,14 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Build resume
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: assets/tex/resume.tex
+        env:
+          TEXINPUTS: "assets/tex//:"
       - name: Upload resume
-        run: cp assets/tex/resume.pdf _site/assets/resume.pdf
+        run: mkdir -p ./_site/assets/pdf && cp ./resume.pdf ./_site/assets/pdf/resume.pdf
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
