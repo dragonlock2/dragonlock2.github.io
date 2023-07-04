@@ -5,4 +5,8 @@ permalink: /resume/
 excerpt: The obligatory resume.
 ---
 
-Resume [here](/assets/pdf/resume.pdf)
+Built using LaTeX, source code at [assets/tex](https://github.com/dragonlock2/dragonlock2.github.io/tree/main/assets/tex) and deployed at [assets/pdf/resume.pdf](/assets/pdf/resume.pdf).
+
+<object data="/assets/pdf/resume.pdf" width="100%" height="100%" type='application/pdf'>
+<p>Unable to display PDF file. <a href="/assets/pdf/resume.pdf">Download</a> instead.</p>
+</object>
