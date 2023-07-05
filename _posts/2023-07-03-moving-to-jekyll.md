@@ -7,4 +7,4 @@ header:
   teaser: /assets/img/jekyll_logo.png
 ---
 
-Nothing much to see here. If the process gets rocky, I'll add some comments.
+Nothing much to see here. The process was pretty smooth, only had to do a little custom HTML and CSS to get things more right.
