@@ -14,10 +14,16 @@ permalink: /:year/:month/:title/
 show_excerpts: true
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: dark
 plugins:
   - jekyll-include-cache
   - jekyll-feed
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-WH7WNE01V5"
+    anonymize_ip: false # default
 
 author:
   name: "Matthew Tran"
