@@ -1,5 +1,4 @@
 ---
-layout: page
 title: TODO
 permalink: /todo/
 excerpt: A running list of things I'll to one day.
