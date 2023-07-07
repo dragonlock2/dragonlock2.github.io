@@ -1,5 +1,5 @@
 ---
-title: "Cheatsheets"
+title: Cheatsheets
 date: 2023-07-05
 categories: school
 excerpt: A compiled list of the cheatsheets I made while at Berkeley.

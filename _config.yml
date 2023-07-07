@@ -1,6 +1,5 @@
 title: Matthew Tran's Blog!
-description: >
-  Hi! I'm a human being who loves to learn new things and create cool projects.
+description: Hi! I'm a human being who loves to learn new things and create cool projects.
 repository: dragonlock2/dragonlock2.github.io
 base_url: ""
 url: "https://matthewtran.dev"
@@ -18,12 +17,16 @@ minimal_mistakes_skin: dark
 plugins:
   - jekyll-include-cache
   - jekyll-feed
+  - jekyll-paginate
 
 analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-WH7WNE01V5"
     anonymize_ip: false # default
+
+paginate: 8
+paginate_path: /page:num/
 
 author:
   name: "Matthew Tran"
