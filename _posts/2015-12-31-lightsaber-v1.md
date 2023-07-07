@@ -17,6 +17,6 @@ Manufacturing the blade was easily the hardest part of the entire project. I wan
 
 Somehow I didn’t take any pictures of this lightsaber by itself before it hit the scrap bin. Here’s what I do have.
 
-![](/assets/img/2015/lightsaber-v1.jpg)
+{% include figure image_path="/assets/img/2015/lightsaber-v1.jpg" %}
 
 {% include video id="EBRMI2jJulM" provider="youtube" %}

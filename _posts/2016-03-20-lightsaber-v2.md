@@ -15,7 +15,7 @@ Immediately after finishing v1, I decided to build another lightsaber. Of course
 
 Just like v1, I stuck to using a chrome sink tube for the hilt. Mechanically speaking, the hardest part would be attaching the two side blades to form the crossguard. I didn’t really have the tools nor the knowledge to make a very secure connection. After some trial and error screwing around with PVC on a band saw and drilling some holes, I had a surprisingly sturdy connection. I’ll admit I also used a good amount of hot glue.
 
-![](/assets/img/2016/lightsaber-v2-hilt.jpg)
+{% include figure image_path="/assets/img/2016/lightsaber-v2-hilt.jpg" %}
 
 Next up was figuring out the blades. v1 used a 3/4″ ID, 1″ OD polycarbonate tube which is really heavy. While it provided durability, I reasoned that I wasn’t designing my lightsabers to duel with, so a 7/8″ ID, 1″ OD tube would work just as well while also cutting down significantly on weight. Mounting the blades was also a challenge because I didn’t really have the tools to make a precise 1″ hole. I ended up using a bunch of masking tape and screws to hold the blades securely.
 
@@ -27,11 +27,11 @@ With the sound figured out, I moved onto the blade. I wanted to make a Makoto Ts
 
 The circuit board housing all the electronics was really nothing special. I remember making a PCB for it but used Sharpie as an etch resist because the toner transfer method just didn’t work. Everything was stuffed into the hilt.
 
-![](/assets/img/2016/lightsaber-v2-electronics.jpg)
+{% include figure image_path="/assets/img/2016/lightsaber-v2-electronics.jpg" %}
 
 It took a bit of effort, but here’s the finished lightsaber v2. Somehow, I literally didn’t take any pictures of it by itself.
 
-![](/assets/img/2016/lightsaber-v2-three.jpg)
+{% include figure image_path="/assets/img/2016/lightsaber-v2-three.jpg" %}
 
 {% include video id="E7cj5idGys4" provider="youtube" %}
 

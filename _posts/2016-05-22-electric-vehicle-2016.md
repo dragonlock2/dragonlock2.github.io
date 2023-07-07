@@ -19,7 +19,7 @@ Coming in from rotation during the SciOly 2016 season was Electric Vehicle. The 
 
 Being the clueless sophomore I was, I started out completely focused on accuracy. I really didn’t know anything about proper mechanical design or what factors to consider. The most precise motor is generally a stepper motor, so I started with that. I threw 4 of them onto an MDF baseplate along with an Arduino Mega and some stepper drivers. Here’s the result:
 
-![](/assets/img/2016/electric-vehicle-2016-v1.jpg)
+{% include figure image_path="/assets/img/2016/electric-vehicle-2016-v1.jpg" %}
 
 I remember bringing v1 to Troy to do some testing. It was decently accurate, but far from enough to account for its slowness. Mr. Wahl even commented on how slow it was. It was pretty clear that I needed something much faster.
 

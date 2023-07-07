@@ -13,7 +13,7 @@ Coming into the SciOly 2017 season, the biggest change made to Electric Vehicle 
 
 Keeping in line with my desire to make the user experience with the vehicle as simple as possible, I kept the laser sighting system. To aim it, I would just aim to the right of the cans to account for the curvature of the path. After a lot of test trials, I was able to get the vehicle relatively accurate.
 
-![](/assets/img/2016/ev2017.jpg)
+{% include figure image_path="/assets/img/2016/ev2017.jpg" %}
 
 At tryouts, the vehicle failed spectacularly. The one thing I failed to account for was the quality of the surface. The floors in our science building were notoriously dirty, which drastically reduced the coefficient of friction. This led to the steering not working at all and the vehicle headed straight into a wall. For reference, I had calibrated my vehicle for a clean hardwood gym floor like what we usually see at competition. This is a prime example of when optimizing for competition instead of just getting past tryouts really didn’t work.
 
