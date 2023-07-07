@@ -25,7 +25,7 @@ analytics:
     tracking_id: "G-WH7WNE01V5"
     anonymize_ip: false # default
 
-paginate: 8
+paginate: 12
 paginate_path: /page:num/
 
 author:
