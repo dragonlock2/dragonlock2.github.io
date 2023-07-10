@@ -143,7 +143,7 @@ Although the resolution of the encoder would end up pretty low, it was very reli
 
 #### Closed Loop Control
 
-In order to instruct the motor to go to a certain position as quickly as possible, I decided to take a page out of what I learned in MicroMouse and implement a PI loop. Considering the pretty ideal operating conditions where stopping the motor would completely stop the rollers, I didn’t implement the integral completely accurately and just reset the integral when the error became 0. For tiny errors though, the integral component proved useful. Since the system was not very complex, I ended up tuning the PI loop by hand.
+In order to instruct the motor to go to a certain position as quickly as possible, I decided to take a page out of what I learned in Micromouse and implement a PI loop. Considering the pretty ideal operating conditions where stopping the motor would completely stop the rollers, I didn’t implement the integral completely accurately and just reset the integral when the error became 0. For tiny errors though, the integral component proved useful. Since the system was not very complex, I ended up tuning the PI loop by hand.
 
 ### Making the Electronics
 
