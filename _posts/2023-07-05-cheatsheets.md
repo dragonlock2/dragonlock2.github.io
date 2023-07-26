@@ -3,6 +3,8 @@ title: Cheatsheets
 date: 2023-07-05
 categories: school
 excerpt: A compiled list of the cheatsheets I made while at Berkeley.
+header:
+  teaser: /assets/img/2023/berkeley.jpg
 ---
 
 Here’s an archive of the cheatsheets I’ve made for some of the classes I’ve taken. Excuse the small writing and my use of fountain pens. Ironically enough, the one class I didn't get an A in after making these cheatsheets is embedded systems, the very field I'm working and specialized in.
