@@ -2,7 +2,7 @@
 title: solarFRAM
 date: 2023-07-24
 categories: projects
-excerpt: First time trying a solar power, PIC, and FRAM.
+excerpt: First time trying solar power, PIC, and FRAM.
 header:
   teaser: /assets/img/2023/solarfram-2.jpg
 ---
