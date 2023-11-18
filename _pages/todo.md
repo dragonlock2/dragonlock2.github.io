@@ -10,12 +10,13 @@ Going into industry and college, I did not expect the sheer number of things tha
 Projects I'll get to next.
 
 - **hardware**
-    - **iCE40 ADC** - first time using an iCE40, pairing with an external ADC
+    - **RViCE ADC** - first time using an iCE40, pairing with an external ADC
     - **word watch** - inspired by those word clocks
     - **solar esp32** - proof of concept
     - **keyboard v2** - full size, swappable keys, esp32 (for the low-power challenge), solar powered
     - **Linux board** - probably an NXP or STM32 chip, maybe a Zynq
 - **software**
+    - **LPC845 Zephyr Support** - already added basic support, do it correctly this time
     - **ePaper Zephyr support** - made a breakout board a while ago, try adding to Zephyr
     - **JABI mobile apps** - built in Flutter for cross-platform deploy
     - **CAN/LIN DFU for Zephyr** - perhaps build it on UDS or devise custom protocol
@@ -42,7 +43,6 @@ Projects I'll get to once I finish the others.
 - **Phased Array Receiver** - basically a compass for radio signals
 - **Drone** - make one, make autonomous, make many
 - **Haptic Touchpad** - basically a Macbook trackpad
-- **LPC845 Zephyr Support** - already added basic support, do it correctly this time
 - **Expandable Cellular Automata** - Conway's Game of Life, infinitely expandable, configurable init states
 - **Self-balancing Robot** - super simple but I've never done it
 - **Hacked Labelmaker** - hack Dymo and make it print whatever we want with a proper desktop app
@@ -90,3 +90,5 @@ Things I have to come up with a project for.
     - POE
 - other
     - embedded Rust
+    - baremetal lwIP/FreeRTOS bringup
+    - LVGL
