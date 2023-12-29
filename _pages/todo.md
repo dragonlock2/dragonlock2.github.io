@@ -16,7 +16,6 @@ Projects I'll get to next.
     - **keyboard v2** - full size, swappable keys, esp32 (for the low-power challenge), solar powered
     - **Linux board** - probably an NXP or STM32 chip, maybe a Zynq
 - **software**
-    - **LPC845 Zephyr Support** - already added basic support, do it correctly this time
     - **ePaper Zephyr support** - made a breakout board a while ago, try adding to Zephyr
     - **JABI mobile apps** - built in Flutter for cross-platform deploy
     - **CAN/LIN DFU for Zephyr** - perhaps build it on UDS or devise custom protocol

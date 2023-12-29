@@ -29,3 +29,7 @@ One interesting quirk of UART peripherals I found was that changing the baud rat
 A bug I found in both the STM32 and NXP UART drivers was that the error check function blindly clears errors bits that aren’t even set. Typically this would also clear a pending received byte. Thankfully, Zephyr’s build system makes it relatively easy to temporarily apply patches to fix this behavior.
 
 At the end of the day, everything worked! It’s certainly not fully LIN spec compliant especially with the API the spec defines, but those layers should be buildable if it ever became necessary.
+
+### 11-29-23 Update
+
+Over a year later and with much more LIN experience, I revisited my LIN API. Since I tried too hard to match the CAN API, the underlying UART implementation consumed ~3.5KiB of RAM per instance which is ridiculous. Since LIN is such a slow protocol, there's no need to queue messages for sending like with USB. As such, I rewrote the API to be callback based so we can generate packets on the fly, significantly reducing memory usage. I also changed the timeout method from a single overall timeout to between individual bytes, greatly simplifying dealing with preemption issues between the UART interrupt handler and the timeout handler. It's not 100% LIN compliant, but works more than well enough.
