@@ -10,8 +10,8 @@ Going into industry and college, I did not expect the sheer number of things tha
 Projects I'll get to next.
 
 - **hardware**
-    - **RViCE ADC** - first time using an iCE40, pairing with an external ADC
     - **word watch** - inspired by those word clocks
+    - **solder dispenser** - level up from the tweezer and hand-squeezed syringe
     - **solar esp32** - proof of concept
     - **keyboard v2** - full size, swappable keys, esp32 (for the low-power challenge), solar powered
     - **Linux board** - probably an NXP or STM32 chip, maybe a Zynq
