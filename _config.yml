@@ -86,3 +86,6 @@ lunr:
 
 compress_html:
   clippings: all
+
+sass:
+  quiet_deps: true

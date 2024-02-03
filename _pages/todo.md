@@ -10,19 +10,17 @@ Going into industry and college, I did not expect the sheer number of things tha
 Projects I'll get to next.
 
 - **hardware**
-    - **word watch** - inspired by those word clocks
     - **solder dispenser** - level up from the tweezer and hand-squeezed syringe
-    - **solar esp32** - proof of concept
-    - **keyboard v2** - full size, swappable keys, esp32 (for the low-power challenge), solar powered
+    - **word watch** - inspired by those word clocks
+    - **wireless solar keyboard** - full size, swappable keys, ch32 w/ nrf24, solar powered, usable in UEFI/BIOS
     - **Linux board** - probably an NXP or STM32 chip, maybe a Zynq
 - **software**
-    - **ePaper Zephyr support** - made a breakout board a while ago, try adding to Zephyr
+    - **autodbconv** - LDF/DBC parser built in Rust
     - **JABI mobile apps** - built in Flutter for cross-platform deploy
+    - **ePaper Zephyr support** - made a breakout board a while ago, try adding to Zephyr
     - **CAN/LIN DFU for Zephyr** - perhaps build it on UDS or devise custom protocol
     - **MCUboot FSBL** - updatable bootloader!
     - **bootloader dynamic linking** - app calls functions provided by bootloader to save flash
-    - **LDF parser in Haskell** - integrate into JABI too
-    - **DBC parser in Haskell** - integrate into JABI too
     - **acoustic keylogger** - lots of articles online, seems interesting
 
 # Future Projects
@@ -89,5 +87,5 @@ Things I have to come up with a project for.
     - POE
 - other
     - embedded Rust
-    - baremetal lwIP/FreeRTOS bringup
+    - lwIP
     - LVGL
