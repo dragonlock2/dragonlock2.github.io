@@ -19,8 +19,8 @@ gallery2:
   - image_path: /assets/img/2024/word_watch_1.webp
 ---
 
-[miscboards/tree/main/microchip/avr/word_watch](https://github.com/dragonlock2/miscboards/tree/main/microchip/avr/word_watch)
-[kicadboards/tree/main/projects/word_watch](https://github.com/dragonlock2/kicadboards/tree/main/projects/word_watch)
+[miscboards/microchip/avr/word_watch](https://github.com/dragonlock2/miscboards/tree/main/microchip/avr/word_watch)\
+[kicadboards/projects/word_watch](https://github.com/dragonlock2/kicadboards/tree/main/projects/word_watch)
 
 After seeing those word clocks, I wanted to make my own. If it isn't obvious, I love making things smaller so of course I had to build a watch version. Turns out, that's already been done. All of the English ones were too large, so I started by designing my own letter matrix. It's an interesting puzzle, figuring out how to combine words to reduce size. I ended up fitting the necessary words in a 9x10 matrix. I also added a minute counter with two dashes, but didn't realize that meant mapping 5 states into 4.
 
