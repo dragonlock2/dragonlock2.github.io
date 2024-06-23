@@ -10,17 +10,15 @@ Going into industry and college, I did not expect the sheer number of things tha
 Projects I'll get to next.
 
 - **hardware**
-    - **solder dispenser** - level up from the tweezer and hand-squeezed syringe
-    - **word watch** - inspired by those word clocks
     - **wireless solar keyboard** - full size, swappable keys, ch32 w/ nrf24, solar powered, usable in UEFI/BIOS
     - **Linux board** - probably an NXP or STM32 chip, maybe a Zynq
 - **software**
+    - **Zephyr USB Rubber Ducky**
     - **autodbconv** - LDF/DBC parser built in Rust
     - **JABI mobile apps** - built in Flutter for cross-platform deploy
     - **ePaper Zephyr support** - made a breakout board a while ago, try adding to Zephyr
     - **CAN/LIN DFU for Zephyr** - perhaps build it on UDS or devise custom protocol
     - **MCUboot FSBL** - updatable bootloader!
-    - **bootloader dynamic linking** - app calls functions provided by bootloader to save flash
     - **acoustic keylogger** - lots of articles online, seems interesting
 
 # Future Projects
@@ -29,11 +27,10 @@ Projects I'll get to once I finish the others.
 - **CNC v2** - do it properly this time, make sure it can cut metal
 - **3D printer** - silent, fast, use linear rails
 - **Nerf Gun** - precise, magazine fed, mountable and electric
-- **Auto Nerf Turret** - become a Jedi with a reobot deliberately shooting at your lightsaber
+- **Auto Nerf Turret** - become a Jedi with a robot deliberately shooting at your lightsaber
 - **Robotic Actuator** - improve the one I designed in 2017
 - **Sine Wave Encoder** - worked with these before so document it
 - **Solder Station** - try doing what GreatScott did and make a cheap good one
-- **Solder Paste Dispenser** - auto squeezing, maybe throw it on a 3D printer and integrate with KiCad
 - **Pick and Place Machine** - auto placing, deep integration with KiCad
 - **Closed Loop Current Clamp** - http://www.ti.com/lit/ug/tidu674/tidu674.pdf
 - **Isolated Differential Oscilloscope Probe**
@@ -44,11 +41,9 @@ Projects I'll get to once I finish the others.
 - **Self-balancing Robot** - super simple but I've never done it
 - **Hacked Labelmaker** - hack Dymo and make it print whatever we want with a proper desktop app
 - **Microphone Triangulation** - like the EE16A lab but an actual product
-- **Component Storage System** - storing a bunch of bags in a box is not a solution
 - **Zynq breakout**
 - **Intel SoC breakout**
 - **CAN Sniffer** - no cutting wires, https://www.csselectronics.com/products/cancrocodile-contactless-can-adapter, inject a signal too?
-- **Zephyr USB Rubber Ducky** - make a USB HS board first
 - **Pi Zero Cluster** - got lots of them lying around, no SD cards
 - **SDR** - deploy the BLE/802.15.4 Chisel code you wrote (zero IF?)
 
@@ -84,8 +79,6 @@ Things I have to come up with a project for.
 - protocols
     - SIM card
     - PCIe
-    - POE
 - other
     - embedded Rust
-    - lwIP
     - LVGL

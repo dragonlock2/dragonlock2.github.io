@@ -1,13 +1,12 @@
 source "https://rubygems.org"
 
-# remove once dependencies updated
+# remove once added to jekyll dependencies
 gem "csv"
 gem "base64"
-gem "bigdecimal"
-gem "rake"
 
 gem "jekyll", "~> 4.0"
 gem "webrick"
+gem "faraday-retry"
 
 group :jekyll_plugins do
     gem "jekyll-feed"

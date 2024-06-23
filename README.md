@@ -5,7 +5,7 @@
 blog + resume
 
 ```
-gem install bundler
+gem install bundler jekyll
 bundle update
 bundle install
 bundle exec jekyll serve
