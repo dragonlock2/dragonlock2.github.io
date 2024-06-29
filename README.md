@@ -10,3 +10,8 @@ bundle update
 bundle install
 bundle exec jekyll serve
 ```
+
+## prepare pic
+
+1. Crop and export as PNG.
+2. `cwebp <image>.png -o <image>.webp`
