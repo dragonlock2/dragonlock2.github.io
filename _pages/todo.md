@@ -13,7 +13,6 @@ Projects I'll get to next.
     - **wireless solar keyboard** - full size, swappable keys, ch32 w/ nrf24, solar powered, usable in UEFI/BIOS
     - **Linux board** - probably an NXP or STM32 chip, maybe a Zynq
 - **software**
-    - **Zephyr USB Rubber Ducky**
     - **autodbconv** - LDF/DBC parser built in Rust
     - **JABI mobile apps** - built in Flutter for cross-platform deploy
     - **ePaper Zephyr support** - made a breakout board a while ago, try adding to Zephyr
