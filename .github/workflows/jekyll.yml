@@ -19,6 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            resume:
+              - 'assets/tex/*'
       - uses: actions/configure-pages@v5
       - uses: ruby/setup-ruby@v1
         with:
@@ -27,11 +33,14 @@ jobs:
       - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - uses: xu-cheng/latex-action@v3
+      - if: steps.changes.outputs.resume == 'true'
+        uses: xu-cheng/latex-action@v3
         with:
           root_file: assets/tex/resume.tex
         env:
           TEXINPUTS: "assets/tex//:"
+      - if: steps.changes.outputs.resume != 'true'
+        run: wget -O resume.pdf https://matthewtran.dev/assets/pdf/resume.pdf
       - run: mkdir -p _site/assets/pdf && cp resume.pdf _site/assets/pdf/resume.pdf
       - uses: actions/upload-pages-artifact@v3
 
