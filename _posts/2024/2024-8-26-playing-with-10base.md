@@ -36,3 +36,9 @@ In terms of performance, the driver works pretty well. Measuring on an oscillosc
 In the future, it would be good to buffer the packets going to and coming from TinyUSB. I'm definitely losing some packets if the OS doesn't read fast enough. It would be fun to play with cut-through mode for OASPI, squeezing a TCP/IP stack on, PoDL for 10BASE-T1S, topology discovery, and IEEE 1588 hardware timestamping. For now, this was a successful exploration.
 
 {% include gallery %}
+
+## update 1-19-25
+
+Since the initial completion of this project, I've continued work on it and it has become something I'm quite proud of. Using task notifcations instead of binary semaphores improves speed, although I haven't measured by exactly how much. I did a massive refactor of the code to decouple the TinyUSB application from the Ethernet layer, creating portable `Eth` and `OASPI` classes in the process. To minimize copying, packets are now allocated and deallocated from a fixed size pool of maximum length packets. Doing this also made buffering packets between TinyUSB and the Ethernet layer easy. Since WSL doesn't come with RNDIS/ECM drivers, I also switched to NCM for true driverless use everywhere. Even more, I modified the HID interface to allow arbitrary OASPI register options, which even allows a webpage to access it using WebHID. As a proof of concept, I also implemented my `Eth` class in macOS using `libpcap`.
+
+Currently I'm limited to about 6Mbps due to my use of USB FS. If a MAC-PHY with topology discovery ever becomes publicly available, I'll definitely build a new board with it and USB HS. If I get paid to do it though, it might have to be closed-source 😧.

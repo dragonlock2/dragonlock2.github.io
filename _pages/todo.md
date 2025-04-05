@@ -10,7 +10,8 @@ Going into industry and college, I did not expect the sheer number of things tha
 Projects I'll get to next.
 
 - **hardware**
-    - **wireless solar keyboard** - full size, swappable keys, ch32 w/ nrf24, solar powered, usable in UEFI/BIOS
+    - **wireless solar keyboard** - full size, swappable keys, samd w/ nrf24, solar powered, usable in UEFI/BIOS
+    - **security system** - PoE cameras, battery backup, basic app
     - **Linux board** - probably an NXP or STM32 chip, maybe a Zynq
 - **software**
     - **autodbconv** - LDF/DBC parser built in Rust
@@ -43,7 +44,6 @@ Projects I'll get to once I finish the others.
 - **Zynq breakout**
 - **Intel SoC breakout**
 - **CAN Sniffer** - no cutting wires, https://www.csselectronics.com/products/cancrocodile-contactless-can-adapter, inject a signal too?
-- **Pi Zero Cluster** - got lots of them lying around, no SD cards
 - **SDR** - deploy the BLE/802.15.4 Chisel code you wrote (zero IF?)
 
 # Stuff to Learn
