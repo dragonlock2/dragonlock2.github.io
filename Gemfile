@@ -1,11 +1,7 @@
 source "https://rubygems.org"
 
-# remove once added to jekyll dependencies
-gem "csv"
-gem "base64"
-
-gem "jekyll", "~> 4.0"
-gem "webrick"
+gem "jekyll", "~> 4.4"
+gem "minimal-mistakes-jekyll", "4.27.1"
 gem "faraday-retry"
 
 group :jekyll_plugins do
