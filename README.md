@@ -6,7 +6,7 @@ blog + resume
 
 ```
 gem install bundler jekyll
-bundle update
+bundle update --all
 bundle install
 bundle exec jekyll serve --incremental
 ```

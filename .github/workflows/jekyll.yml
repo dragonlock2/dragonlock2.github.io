@@ -18,23 +18,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: dorny/paths-filter@v3
+      - uses: actions/checkout@v6
+      - uses: dorny/paths-filter@v4
         id: changes
         with:
           filters: |
             resume:
               - 'assets/tex/*'
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
+          ruby-version: '3.4'
           bundler-cache: true
       - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - if: steps.changes.outputs.resume == 'true'
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with:
           root_file: assets/tex/resume.tex
         env:
@@ -42,7 +42,7 @@ jobs:
       - if: steps.changes.outputs.resume != 'true'
         run: wget -O resume.pdf https://matthewtran.dev/assets/pdf/resume.pdf
       - run: mkdir -p _site/assets/pdf && cp resume.pdf _site/assets/pdf/resume.pdf
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
 
   deploy:
     runs-on: ubuntu-latest
@@ -51,4 +51,4 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5

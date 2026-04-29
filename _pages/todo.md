@@ -13,6 +13,8 @@ Projects I'll get to next.
     - **wireless solar keyboard** - full size, swappable keys, samd w/ nrf24, solar powered, usable in UEFI/BIOS
     - **security system** - PoE cameras, battery backup, basic app
     - **Linux board** - probably an NXP or STM32 chip, maybe a Zynq
+    - **configurable display** - grid network of nodes with LED matrices, demo distributed game of life
+    - **automatic chess board** - use 3D hall sensors to identify pieces, CNC to move
 - **software**
     - **autodbconv** - LDF/DBC parser built in Rust
     - **JABI mobile apps** - built in Flutter for cross-platform deploy
@@ -37,6 +39,7 @@ Projects I'll get to once I finish the others.
 - **Phased Array Receiver** - basically a compass for radio signals
 - **Drone** - make one, make autonomous, make many
 - **Haptic Touchpad** - basically a Macbook trackpad
+- **Haptic Knob** - develop anti-cogging algorithm, steer-by-wire demo
 - **Expandable Cellular Automata** - Conway's Game of Life, infinitely expandable, configurable init states
 - **Self-balancing Robot** - super simple but I've never done it
 - **Hacked Labelmaker** - hack Dymo and make it print whatever we want with a proper desktop app
